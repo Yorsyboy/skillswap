@@ -63,26 +63,20 @@ Deployment
 
 ## Project Structure
 
-src
-│
-├── components
-│ ├── Navbar.tsx
-│ └── SkillCard.tsx
-│
-├── pages
-│ ├── Home.tsx
-│ ├── Explore.tsx
-│ └── PostSkill.tsx
-│
-├── store
-│ └── skillStore.ts
-│
-├── types
-│ └── skill.ts
-│
-├── App.tsx
-└── main.tsx
-
+- src
+    - components
+      - Navbar.tsx
+      - SkillCard.tsx
+    - pages
+      - Home.tsx
+      - Explore.tsx
+      - PostSkill.tsx
+    - store
+      - skillStore.ts
+    - types
+      - skill.ts
+    - App.tsx
+    - main.tx 
 
 ---
 
@@ -91,7 +85,7 @@ src
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/skillswap.git
+git clone https://github.com/Yorsyboy/skillswap.git
 
 Navigate into the project folder:
 
@@ -108,8 +102,13 @@ npm run dev
 The application will run on:
 
 http://localhost:5173
-Live Demo
 
-Live Project Link:
+```
 
-Add deployed link here
+## Deployment, Repo and Video
+
+Live Demo: [Click here](https://skillswap.vercel.app)
+
+GitHub Repository: [View Code](https://github.com/Yorsyboy/skillswap)
+
+Demo Video: [Watch Video](https://youtube.com/demo)
