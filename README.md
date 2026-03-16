@@ -1,73 +1,114 @@
-# React + TypeScript + Vite
+# SkillSwap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkillSwap is a simple web application that allows people to share and exchange skills with others.  
+Users can post skills they can teach and explore skills offered by others.
 
-Currently, two official plugins are available:
+This project was built as part of the **Remote Hustle Developers Challenge (RHDC) – Stage 1**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Problem
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Many people want to learn practical skills but cannot easily find someone willing to teach or exchange knowledge with them.
 
-## Expanding the ESLint configuration
+There is no simple platform for people to quickly **offer skills and connect with learners**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Solution
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+SkillSwap provides a platform where users can:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Post a skill they can teach
+- Browse skills shared by others
+- Contact skill providers to learn from them
+
+The platform is lightweight, easy to use, and accessible to anyone.
+
+---
+
+## Features
+
+- Post a new skill
+- Browse available skills
+- Animated UI using Framer Motion
+- Responsive design
+- Simple and intuitive interface
+- Real-time state management
+
+---
+
+## Tech Stack
+
+Frontend
+
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Router
+- React Hook Form
+- Zustand
+
+Development Tools
+
+- Vite
+- Git & GitHub
+
+Deployment
+
+- Vercel / Netlify
+
+---
+
+## Project Structure
+
+- src
+    - components
+      - Navbar.tsx
+      - SkillCard.tsx
+    - pages
+      - Home.tsx
+      - Explore.tsx
+      - PostSkill.tsx
+    - store
+      - skillStore.ts
+    - types
+      - skill.ts
+    - App.tsx
+    - main.tx 
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Yorsyboy/skillswap.git
+
+Navigate into the project folder:
+
+cd skillswap
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+The application will run on:
+
+http://localhost:5173
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Deployment, Repo and Video
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Live Demo: [Click here](https://skillswap.vercel.app)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+GitHub Repository: [View Code](https://github.com/Yorsyboy/skillswap)
+
+Demo Video: [Watch Video](https://youtube.com/demo)
