@@ -111,4 +111,4 @@ Live Demo: [Click here](https://skillswaps.vercel.app)
 
 GitHub Repository: [View Code](https://github.com/Yorsyboy/skillswap)
 
-Demo Video: [Watch Video](https://youtube.com/demo)
+Demo Video: [Watch Video](https://screenrec.com/share/6uNSt2vKcO)
