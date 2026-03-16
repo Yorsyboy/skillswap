@@ -107,7 +107,7 @@ http://localhost:5173
 
 ## Deployment, Repo and Video
 
-Live Demo: [Click here](https://skillswap.vercel.app)
+Live Demo: [Click here](https://skillswaps.vercel.app)
 
 GitHub Repository: [View Code](https://github.com/Yorsyboy/skillswap)
 
